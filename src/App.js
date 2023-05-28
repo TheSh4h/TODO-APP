@@ -22,6 +22,8 @@ function App(){
         setTodos(newTodo);
     }
 
+    document.title = "DODO APP";
+
     return ( 
         <div className="text-center text-slate-200 text-xl p-10
         font-mono font-bold">
