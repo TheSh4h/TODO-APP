@@ -6,11 +6,11 @@ const TodoInput = ({todo, setTodo, addTodo}) => {
 
     return ( 
         <>
-            <form onSubmit={addTodo}>
+            <form onSubmit={addTodo} className="flex justify-center gap-5 my-5">
 
-            <input className="m-5 bg-slate-200 rounded-lg focus:outline-none
+            <input className="bg-slate-200 rounded-lg focus:outline-none
             border-2 w-80 text-black
-            focus:border-teal-300 focus:border-2" 
+            focus:border-teal-300 focus:border-2 pl-2" 
              type="text"
              onChange={(e) => setTodo(e.target.value)}
              value={todo}/>
